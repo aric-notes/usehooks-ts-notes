@@ -1,0 +1,19 @@
+{
+  "name": "@jswork/usehooks-ts-notes",
+  "version": "1.0.0",
+  "description": "usehooks-ts notes.",
+  "homepage": "https://js.work",
+  "author": {
+    "name": "feizheng",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "boilerplate": "usehooks-ts-notes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/usehooks-ts-notes.git"
+  }
+}
