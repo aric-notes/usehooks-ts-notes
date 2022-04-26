@@ -76,7 +76,7 @@ function useFetch<T = unknown>(url?: string, options?: RequestInit): State<T> {
     // Use the cleanup function for avoiding a possibly...
     // ...state update after the component was unmounted
     return () => {
-      console.log('unmounting')
+      // console.log('unmounting')
       if (process.env.NODE_ENV === 'production') {
         cancelRequest.current = true
       }

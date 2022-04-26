@@ -11,9 +11,7 @@ interface Post {
 }
 
 const ExFetch = () => {
-  console.log('execute ex fetch.', url)
   const {data, error} = useFetch<Post[]>(url, {})
-  console.log(data, error)
   if (error) return <p>There is an error.</p>
   if (!data) return <p>Loading...</p>
   return <p>{data[0].title}</p>
